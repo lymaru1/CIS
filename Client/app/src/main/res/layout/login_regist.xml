@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground">
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/e_id"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:hint="이메일"/>
+    <Button
+        android:onClick="e_idClick"
+        android:id="@+id/e_id_but"
+        android:text="중복 확인"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+        android:background="@color/colorbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"/>
+  </LinearLayout>
+
+  <EditText
+      android:id="@+id/password"
+      android:hint="비밀번호"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content" />
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/password_check"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:hint="비밀번호 확인"
+        />
+    <TextView
+        android:id="@+id/check"
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+
+  <EditText
+      android:id="@+id/name"
+      android:layout_marginTop="50dp"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:hint="이름"/>
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right"
+      android:layout_marginTop="30dp">
+
+    <Button
+        android:onClick="cancelClick"
+        android:id="@+id/cancel"
+        android:background="@color/colorbutton"
+        android:text="취소"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:fontFamily="@font/font"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@color/colorbutton"
+        android:onClick="registClick"
+       android:layout_marginLeft="10dp"
+        android:id="@+id/regist"
+        android:text="등록"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+  </LinearLayout>
+</LinearLayout>
+
