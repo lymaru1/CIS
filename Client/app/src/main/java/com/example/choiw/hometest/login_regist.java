@@ -35,6 +35,7 @@ public class login_regist extends AppCompatActivity {
         passCheck = findViewById(R.id.password_check);
         check = findViewById(R.id.check);
         Intent intent = getIntent();
+            //패스워드 실시간 체크
             passCheck.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence s, int start, int count, int after) {
