@@ -20,7 +20,7 @@ DB정보는 사용자에 맞게 다시 세팅하여 사용해야합니다.
 tempdata 테이블을 작성시 기본키를 현재시간을 받아 처리하여 이 코드를 사용 하시려면 DB 소스를 참고하여 사용하십시오.
 
 <div>
-  <img src="https://github.com/lymaru1/CIS/blob/master/img/door.png">
-  <img src="https://github.com/lymaru1/CIS/blob/master/img/light.png">
-  <img src="https://github.com/lymaru1/CIS/blob/master/img/history.png">
+  <img width="300" height="400" src="https://github.com/lymaru1/CIS/blob/master/img/door.png">
+  <img width="300" height="400" src="https://github.com/lymaru1/CIS/blob/master/img/light.png">
+  <img width="300" height="400" src="https://github.com/lymaru1/CIS/blob/master/img/history.png">
 </div>
