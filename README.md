@@ -18,3 +18,9 @@ hombutler는 도어락 상태 표시, LED 상태 표시, 온습도 정보 표시
 DB정보는 사용자에 맞게 다시 세팅하여 사용해야합니다.
 데이터를 암호화 및 복호화를 못하여 login 및 sign up 기능을 다시 생성해야하며 
 tempdata 테이블을 작성시 기본키를 현재시간을 받아 처리하여 이 코드를 사용 하시려면 DB 소스를 참고하여 사용하십시오.
+
+<div>
+  <img src="https://github.com/lymaru1/CIS/blob/master/img/door.png">
+  <img src="https://github.com/lymaru1/CIS/blob/master/img/light.png">
+  <img src="https://github.com/lymaru1/CIS/blob/master/img/history.png">
+</div>
